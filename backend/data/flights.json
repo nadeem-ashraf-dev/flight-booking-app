@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "airline": "AeroSky",
+    "airlineCode": "AS",
+    "flightNumber": "AS2026",
+    "from": "New York",
+    "fromCode": "JFK",
+    "to": "London",
+    "toCode": "LHR",
+    "departureTime": "08:30",
+    "arrivalTime": "20:45",
+    "duration": "7h 15m",
+    "departureDate": "2026-07-15",
+    "arrivalDate": "2026-07-15",
+    "price": 429,
+    "classes": [
+      "Economy",
+      "Premium",
+      "Business"
+    ],
+    "direct": true,
+    "availableSeats": 41,
+    "amenities": [
+      "Wi-Fi",
+      "Meals",
+      "Entertainment"
+    ],
+    "image": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 60 60'%3E%3Crect width='60' height='60' rx='12' fill='%232563eb' /%3E%3Ctext x='15' y='38' font-family='Inter' font-size='28' fill='white' font-weight='700'%3EA%3C/text%3E%3C/svg%3E",
+    "carbonOffset": true
+  }
+]

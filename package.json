@@ -1,0 +1,14 @@
+{
+  "name": "flight-booking-app",
+  "version": "1.0.0",
+  "description": "SkyWing 2026 Flight Booking App",
+  "scripts": {
+    "server": "cd backend && npm start",
+    "client": "cd frontend && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.0"
+  }
+}
