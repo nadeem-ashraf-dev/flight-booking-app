@@ -6,7 +6,6 @@ import FlightList from './components/FlightList';
 import StatsDashboard from './components/StatsDashboard';
 import BookingModal from './components/BookingModal';
 import { getFlights } from './services/api';
-import './App.css';
 
 function App() {
   const [flights, setFlights] = useState([]);
